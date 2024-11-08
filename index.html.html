@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Pribadi</title>
+    <link rel="stylesheet" href="../HTML_CSS/css/style.css">
+    <link rel="stylesheet" href="../HTML_CSS/fontawesome/css/all.css">
+    <script>
+        function sendToWhatsApp() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+
+            var whatsappUrl = "https://api.whatsapp.com/send?phone=085526397426&text=" +
+                "Nama: " + encodeURIComponent(name) + "%0A" +
+                "Email: " + encodeURIComponent(email) + "%0A" +
+                "Pesan: " + encodeURIComponent(message);
+
+            window.open(whatsappUrl, '_blank');
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <p class="text">M NADIF MAZUMI</p>
+           <ul>
+           <li><a href="#Home">Home</a></li>
+           <li><a href="#About">About</a></li>
+           <li><a href="#Portofolio">Portofolio</a></li>
+           <li><a href="#Blog">Blog</a></li>
+           <li><a href="#Contac">Contac</a></li>
+           </ul>
+       </div>
+    <div class="main">
+        <h3 id="Home">Home</h3>
+        <div class="flexcon">
+        <div class="text1">
+            <p class="text2">Hello Everyone,</p>
+            <h2>M NADIF MAZUMI</h2>
+            <P class="text2">I'am Front-End Developer</P>
+            <a href="https://drive.google.com/file/d/1P_EhnPiT3TTozYNRe0veo9UvTsgwMu-1/view?usp=drive_link" class="vitae">Download CV</a>
+        </div>
+        <div class="image1">
+            <img src="../HTML_CSS/gambar/poto.jpg" alt="Foto">
+        </div>
+        </div>
+    </div>
+    <div class="main2">
+        <h3 id="About">About</h3>
+        <h2 class="judulabout">About Me</h2>
+        <p class="isiabout">Let me introduce myself, my name is M Nadif Mazumi. I live in Tegal City, I graduated from one of the college in Tegal City. namely Harapan Bersama Polytechnic, one of the best polytechnics in Indonesia. my major is D3 Computer Engineering. One of my organizational experiences is that I have participated in young people in an Islamic religious organization. I have held a position in the sports and arts and culture section and over time I have held the position as deputy chairman of that organization. For my work experience, I have been a courier, driver, shop assistant and I also work as a freelancer and volunteer. and internship experience. I have participated in a program at an independent car repair shop as a mechanic helper, and interned at Telkom access Tegal as a technician helper and Data Entry. I have a hobby of swimming and gym, the rest is drinking coffee. I like coding, especially the front end starting from HTML, CSS, JavaScript, etc.</p>
+        <h3 class="skilab">Skills</h3>
+        <div class="flexskills1">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js"></i>
+        </div>
+    </div>
+    <div class="main3">
+        <h3 id="Portofolio">Portofolio</h3>
+        <h2 class="judulpor">My Portfolio</h2>
+        <div class="flexpor">
+            <div class="congam1">
+            <img class="gampor" src="../HTML_CSS/gambar/Screenshot (346).png" alt="gambar">
+            <h4>Website Courses Online</h4>
+            <p class="desweb1">Online courses or what are better known as online courses have become increasingly popular in Indonesia recently. Online courses are a form of non-formal education carried out via the internet so that course participants can take lessons without having to meet face to face with the instructor.</p>
+            </div>
+            <div class="congam2">
+                <img class="gampor" src="../HTML_CSS/gambar/Screenshot (347).png" alt="gambar">
+                <h4>Website Personal</h4>
+                <p class="desweb1">A portfolio website is a site that contains information about a person's personal data, skills (abilities), and work results. By having a portfolio website, you can show your work, results, abilities more freely, neatly and easily to access.</p>
+            </div>
+            <div class="congam3">
+                <p class="desweb">These are two websites that I have just created using HTML and CSS, and these two websites are still in the development stage.<br>learn HTML and CSS click the link below <br> <br> <a class="linkpor" href="https://youtube.com/@kelaskomputeronline?si=94Fqu9GUitjM68Op">Learn</a> </p>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="main4">
+        <h3 id="Blog">Blog</h3>
+        <h2 class="judulblog" >My Certificate</h2>
+        <div class="conten1">
+           <img class="serti" src="../HTML_CSS/gambar/sertifikat Ckres M NADIF MAZUMI_page-0001.jpg" alt="">
+           <img class="serti" src="../HTML_CSS/gambar/sertifikat html m nadif mazumi_page-0001.jpg" alt="">
+           <img class="serti" src="../HTML_CSS/gambar/sertifikat jaringan M NADIF MAZUMI_page-0001.jpg" alt="">
+           <img class="serti" src="../HTML_CSS/gambar/sertifikat python m nadif mazumi_page-0001.jpg" alt="">
+           <img class="serti" src="../HTML_CSS/gambar/sertifikat pfmd PDF Scanner_page-0001.jpg" alt="">
+           <img class="serti" src="../HTML_CSS/gambar/sertifikat pktj PDF Scanner_page-0001.jpg" alt="">
+           <img class="serti" src="../HTML_CSS/gambar/sertifikat soft skill PDF Scanner_page-0001.jpg" alt="">
+           <a href="https://drive.google.com/drive/folders/1X1w_vioOh6cpjVzaWDqU_5l3faNyKS4R?usp=drive_link" class="cer">see more</a>
+        </div>
+    </div>
+
+    <div class="main5">
+        <h3 id="Contac">Contac</h3>
+        <h2 class="judulcontac" >Contac Me</h2>
+        <form onsubmit="event.preventDefault(); sendToWhatsApp();">
+            <label for="name">Nama:</label><br>
+            <input type="text" id="name" name="name" placeholder="Nama" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+
+            <label for="number">Number:</label><br>
+            <input type="number" id="number" name="number" placeholder="Telephone" required><br><br>
+            
+            <label for="message">Pesan:</label><br>
+            <textarea id="message" name="message" rows="4" placeholder="Pesan" required></textarea><br><br>
+            
+            <button type="submit" class="buttoncontac" >Kirim</button>
+        </form>
+    </div>
+    <div class="footer" >
+
+    </div>
+</body>
+</html>

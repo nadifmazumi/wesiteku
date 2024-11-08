@@ -1,0 +1,236 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(0, 0, 0);
+}
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+.text {
+    font-weight: bold;
+    padding: 7px;
+    color: rgb(43, 43, 255);
+}
+ul {
+    display: flex;
+    list-style: none;
+    padding: 7px;
+}
+a {
+    text-decoration: none;
+    margin-right: 35px;
+    padding: 7px;
+    border-radius: 20px;
+}
+a:hover {
+    color: orange;
+}
+.main {
+    height: 100vh;
+    margin-bottom: 50px;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.flexcon {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+.text1 {
+    padding-top: 30px;
+}
+h2 {
+    color: rgb(9, 255, 0);
+    font-size: 50px;
+    margin-left: 20px;
+}
+.text2 {
+    color: white;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.vitae {
+    border: 1px solid blue;
+    border-radius: 0;
+    margin-left: 20px;
+}
+.vitae:hover {
+    color: white;
+    background-color: blue;
+}
+.cv {
+    color: white;
+    border: 1px solid rgb(9, 255, 0);
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+.image1 img {
+    border-radius: 100px;
+    box-shadow: 0px 0px 30px 10px rgb(0, 255, 0);
+}
+.cv:hover {
+    background-color: rgb(9, 255, 0);
+    color: black;
+}
+
+.main2 {
+    height: 100vh;
+    margin-bottom: 50px;
+}
+.judulabout {
+    color: rgb(0, 255, 0);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.isiabout {
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+.skilab {
+    color: rgb(0, 255, 0) ;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.main3 {
+    height: 100vh;
+    margin-bottom: 50px;
+}
+.main4 {
+    height: 100vh;
+
+    margin-bottom: 50px;
+}
+.main5 {
+    height: 100vh;
+
+    margin-bottom: 50px;
+}
+.flexskills1 {
+    text-align: center;
+}
+i {
+    color: rgb(43, 43, 255);
+    font-size: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+i:hover {
+    color: orange;
+}
+.judulpor {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.congam1 {
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.congam2 {
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.congam3 {
+    width: 200px;
+    padding: 20px;
+}
+.gampor {
+    width: 360px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+h4 {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.flexpor {
+    display: flex;
+    justify-content: space-evenly;
+}
+.desweb1 {
+    color: white;
+    text-align: center;
+}
+.desweb {
+    color: grey;
+}
+.linkpor {
+    margin-top: 10px;
+    border: 1px solid blue;
+    border-radius: 0%;
+}
+.linkpor:hover {
+    background-color: blue;
+    color: white;
+}
+
+.judulblog {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.conten1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.serti {
+    width: 300px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+p {
+    color: white;
+    margin-left: 20px;
+}
+
+.judulcontac {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+form {
+    width: 500px;
+    margin: auto;
+}
+input {
+    margin-bottom: 10px;
+    width: 100%;
+}
+textarea {
+    width: 100%;
+}
+.buttoncontac {
+    width: 100px;
+    height: 20px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.buttoncontac:hover {
+    border: 2px solid blue;
+}
